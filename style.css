@@ -34,22 +34,54 @@
 			#nav a {
 				color: black;
 			}
-	#middle {
-		background: gray;
-		width: 1200px;
-	}
+	#middle {}
 		#left {
-			background: lightgreen;
 			width: 800px;
-			height: 300px;
+/*			height: 600px;*/
 			float: left;
 		}
+		.post {
+			margin: 20px;
+		}
+			.title {
+				background: brown;
+				padding: 15px 10px;
+				color: white;
+				font-weight: bold;
+				font-size: 25px;
+			}
+			.description {
+				background: #f1f1f1;
+				padding: 20px 10px;
+			}
 		#right {
-			background: lightblue;
-			width: 400px;
-			height: 300px;
+			width: 360px;
+			height: 600px;
 			float: left;
-}
+			padding: 20px;
+		}
+			#right h2 {
+				text-align: center;
+			}
+			#latest_post_group {
+				margin: 10px 0; 
+			}
+				#right .latest_post {
+					background: brown;
+					padding: 10px 0;
+					text-align: center;
+					color: white;
+					margin: 10px 0;
+				}
+			#news_letter {}
+				#news_letter .news_letter_head {
+					text-align: center;
+					font-size: 25px;
+				}
+			#news_letter input[type="text"] {
+				width: 360px;	
+				height: 30px;
+			}
 	#footer {
 		background: brown;
 		width: 1200px;
