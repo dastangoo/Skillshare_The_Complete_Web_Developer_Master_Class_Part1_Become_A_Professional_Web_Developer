@@ -1,8 +1,17 @@
-p {
+#sec_para {
 		color: red; 
 		background-color: lightgreen;			
 }
 
+.main-class {
+	color: brown;
+}
+
+
+.background-color {
+	background-color: silver;
+}
+
 h1 {
-	background-color: lightblue;
+	background-color: red;
 }
