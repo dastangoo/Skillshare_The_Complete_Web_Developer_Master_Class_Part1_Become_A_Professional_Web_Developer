@@ -82,8 +82,25 @@
 				width: 360px;	
 				height: 30px;
 			}
+			#news_letter input[type="submit"] {
+				width: 360px;
+				margin: 10px 0;
+				background: orange;
+				color: white;
+				padding: 20px 0;
+				border: none;
+				font-size: 20px;
+			}
+			#news_letter input[type="submit"]:hover {
+				background: brown;
+				color: white;
+			}
+
 	#footer {
 		background: brown;
 		width: 1200px;
-		height: 50px;
+		padding: 20px 0;
+		color: white;
+		text-align: center;
+/*		padding: 20px 10px;*/
 	}	
