@@ -5,57 +5,36 @@
 	<title>Learn HTML</title>
 	<link rel="stylesheet" href="style.css">
 	<style>
-		#ul1 {
-			list-style-type: circle;
-			list-style-image: url(list.png);
-			list-style-position: outside;
-			background: green;
-		}
-		#ul1 li {
-			font-size: 25px; 
-			background: silver;
-		}
-		#ul2 {
-			list-style: circle url(list.png);
-			list-style-position: inside;
-		}
-		#ul2 li {
-			font-size: 25px; 
-		}
 		#ul3 {
 			list-style: none;
 		}
 		#ul3 li {
 			font-size: 25px; 
 			float: left;
+			background: orange; 
+			margin-left: 10px;
+			width: 200px;
+			height: 40px;
+			text-align: center;
+			vertical-align: bottom;
 		}
-
+		#ul3 li:hover {
+			background: brown;
+			color: white;
+			border-bottom: 5px solid orange;
+		}
+		#ul3 a {
+			color: black;
+		}
 	</style>
 	</head>
 <body>
-	<ul id="ul1">
-		<li>Pakistan</li>
-		<li>Brazil</li>
-		<li>United States</li>
-		<li>India</li>
-		<li>Srilanka</li>
-		<li>United Kingdom</li>
-	</ul>
-	<ul id="ul2">
-		<li>Pakistan</li>
-		<li>Brazil</li>
-		<li>United States</li>
-		<li>India</li>
-		<li>Srilanka</li>
-		<li>United Kingdom</li>
-	</ul>
 	<ul id="ul3">
-		<li>Pakistan</li>
-		<li>Brazil</li>
-		<li>United States</li>
-		<li>India</li>
-		<li>Srilanka</li>
-		<li>United Kingdom</li>
+		<a href="#"><li>Home</li></a>
+		<a><li>Software</li></a>
+		<a href="#"><li>Musics</li></a>
+		<a href="#"><li>Articles</li></a>
+		<a href="#"><li>Contact Us</li></a>
 	</ul>
 
 </body>
