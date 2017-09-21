@@ -8,10 +8,23 @@
 }
 
 
-.background-color {
+.back-color {
 	background-color: silver;
 }
 
-h1 {
-	background-color: red;
+a:link {
+	color: red;	
 }
+
+a:visited {
+	color: brown;
+}
+
+a:active {
+	color: green;
+}
+
+a:hover {
+	color: orange;
+}
+
