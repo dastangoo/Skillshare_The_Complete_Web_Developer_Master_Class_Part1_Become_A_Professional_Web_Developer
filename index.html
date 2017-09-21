@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Learn HTML</title>
+</head>
+<body>
+	<form action="">
+<!--
+		<label for="user">Username</label>
+		<input type="text" id="user">
+		<input type="password">
+-->
+		<table>
+			<tr>
+				<td><label for="user">User Name</label></td>
+				<td><input type="text" id="user" name="user"></td>
+			</tr>
+			<tr>
+				<td><label for="pass">Password</label></td>
+				<td><input type="password" id="pass" name="pass"></td>
+			</tr>
+			<tr>
+				<td><label for="">Gender</label></td>
+				<td>Male:<input type="radio" name="gender" value="male"> | Female:<input type="radio" name="gender" value="female"></td>
+			</tr>
+			<tr>
+				<td><label for="">Skills</label></td>
+				<td>HTML:<input type="checkbox" value="html" name="html"> | CSS:<input type="checkbox" value="css" name="css"> | PHP: <input type=checkbox value="php" name="php"></td>
+			</tr>
+			<tr>
+				<td><label for="country">Select your country</label></td>
+				<td>
+					 <select id="country" name="country">
+						<option value="">Select your contry</option>
+						<option value="pk">Pakistan</option>
+						<option value="in">India</option>
+						<option value="uk">United Kingdom</option>
+						<option value="ca">Canda</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="click to submit" name="submit_form"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
