@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#container {
+	background: silver;
+	width: 1200px;
+/*	height: 680px;*/
+	margin: 0 auto;
+	border: 1px solid black;
+	padding: 10px;
+}
+	#header {
+		background: brown;
+		width: 1200px;
+		height: 100px;
+	}
+	#nav {
+		background: orange;
+		width: 1200px;
+		height: 50px;
+	}
+	#middle {
+		background: gray;
+		width: 1200px;
+/*		height: 350px;*/
+		padding: 10px 0;
+	}
+		#left {
+			background: lightgreen;
+			width: 800px;
+			height: 300px;
+			float: left;
+		}
+		#right {
+			background: lightblue;
+			width: 400px;
+			height: 300px;
+			float: left;
+}
+	#footer {
+		background: brown;
+		width: 1200px;
+		height: 50px;
+	}	
